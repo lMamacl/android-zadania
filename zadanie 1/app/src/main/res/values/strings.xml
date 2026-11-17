@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Zadanie 1</string>
+    <string name="button_true">Prawda</string>
+    <string name="button_false">Fałsz</string>
+    <string name="button_next">Następne</string>
+    <string name="button_back">Powrót</string>
+
+    <string name="correct_answer">Odpowiedź poprawna</string>
+    <string name="incorrect_answer">Odpowiedź niepoprawna</string>
+    <string name="already_answered">Na to pytanie już odpowiedziałeś</string>
+
+    <string name="result_title">Koniec quizu</string>
+    <string name="result_message">Twój wynik: %1$d z %2$d</string>
+
+    <string name="q1">Andy Rubin był głównym założycielem firmy Android Inc.</string>
+    <string name="q2">Firma Android Inc. powstała w 2001 roku</string>
+    <string name="q3">Pierwotnym celem Androida była aplikacja pogodowa</string>
+    <string name="q4">Google przejęło Android Inc. w 2005 roku</string>
+    <string name="q5">Pierwszy telefon z Androidem to HTC Dream</string>
+
+    <string name="button_hint">Podpowiedź</string>
+    <string name="prompt_question">Czy na pewno chcesz zobaczyć odpowiedź?</string>
+    <string name="show_answer">Pokaż odpowiedź</string>
+    <string name="answer_was_shown">Odpowiedź została już poznana z podpowiedzi</string>
+</resources>
