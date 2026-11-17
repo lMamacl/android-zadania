@@ -7,7 +7,7 @@
 
 ---
 
-##  Opis projektu
+## 📱 Opis projektu
 
 Aplikacja jest mobilnym quizem wiedzy o historii systemu Android, rozwijanym w ramach dwóch etapów zadań laboratoryjnych.
 
@@ -26,6 +26,23 @@ Aplikacja jest mobilnym quizem wiedzy o historii systemu Android, rozwijanym w r
   * Zwracanie wyniku (`answerWasShown`) z `PromptActivity` do `MainActivity` za pomocą `registerForActivityResult`.
   * Brak punktu za pytanie, jeśli użytkownik skorzystał z podpowiedzi (`answer_was_shown`).
 * Dokumentacja logów cyklu życia zebrana w katalogu `docs/cykl-zycia.md`.
+
+---
+
+## 📊 Odpowiedź na pytanie z PDF-a (Statystyki pokrycia urządzeń dla wybranych API)
+
+Przy tworzeniu projektu wybrano **`minSdk 27`** (Android 8.1 Oreo):
+* **API 27 (Android 8.1 Oreo):** Zapewnia wsparcie dla ok. **96,4%** wszystkich aktywnych urządzeń z systemem Android na świecie.
+* **Porównanie z innymi poziomami API:**
+  * **API 24 (Android 7.0 Nougat):** ~98,8% urządzeń
+  * **API 27 (Android 8.1 Oreo):** ~96,4% urządzeń *(wybrany standard w zadaniu)*
+  * **API 30 (Android 11.0):** ~84,5% urządzeń
+  * **API 34 (Android 14.0):** ~22,1% urządzeń
+
+### 🧪 Środowisko testowe
+Aplikacja została uruchomiona i przetestowana na:
+* **Emulatorze:** Android Studio Emulator (Pixel / API 34 – Android 14.0).
+* **Fizycznym telefonie:** Urządzenie z systemem Android 14.
 
 ---
 
